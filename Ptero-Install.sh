@@ -1,6 +1,8 @@
 #!/bin/bash
 #!/usr/bin/env bash
 
+dist="$(. /etc/os-release && echo "$ID")"
+version="$(. /etc/os-release && echo "$VERSION_ID")"
 
 
 ### This script is meant to be used: ###
